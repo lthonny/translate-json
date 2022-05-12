@@ -1,13 +1,32 @@
 import { Google } from "./translators/google/google";
 import { Translaters } from "./enum/translaters";
-import { Yandex } from "translators/yandex/yandex";
+import { Yandex } from "./translators/yandex/yandex";
+
+const test = {
+    "GENERAL": {
+        "ACTIONS": {
+          "OK": "Ok",
+          "YES": "Yes",
+          "NO": "No",
+          "CANCEL": "Cancel",
+          "CONFIRM": "Confirm",
+          "DELETE": "Delete",
+          "REMOVE": "Remove",
+          "EDIT": "Edit",
+          "UNFOLLOW": "Unfollow",
+          "FOLLOW": "Follow",
+          "REPORT": "Report",
+          "SAVE": "Save",
+          "LINK": "Link",
+          "SHARE": "Share",
+        }    
+    }
+};
 
 class TranslateJSON {
-    public init(apiKey, translators) {
-        console.log('init');
-    
+    public init(json, target, translators) {    
         if(translators === Translaters.google) {
-            this.translateGoogle();
+            this.translateGoogle(json, target);
         } 
 
         if(translators === Translaters.yandex) {
@@ -16,9 +35,9 @@ class TranslateJSON {
 
     }
 
-    private translateGoogle() {
+    private translateGoogle(json, target) {
         const google = new Google;
-        google.init();
+        google.init(json, target);
     }
 
     private translateYandex() {
@@ -27,7 +46,6 @@ class TranslateJSON {
     }
 }
 
-const test = new TranslateJSON
-
-test.init('sadasdasd', 'yandex');
+const app = new TranslateJSON();
+app.init(test, 'ru', 'google');
 // export = TranslateJSON;

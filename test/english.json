@@ -1,0 +1,1753 @@
+{
+    "GENERAL": {
+      "ACTIONS": {
+        "OK": "Ok",
+        "YES": "Yes",
+        "NO": "No",
+        "CANCEL": "Cancel",
+        "CONFIRM": "Confirm",
+        "DELETE": "Delete",
+        "REMOVE": "Remove",
+        "EDIT": "Edit",
+        "UNFOLLOW": "Unfollow",
+        "FOLLOW": "Follow",
+        "REPORT": "Report",
+        "SAVE": "Save",
+        "LINK": "Link",
+        "SHARE": "Share",
+        "MESSAGE": "Message",
+        "BOOK": "Book",
+        "BACK": "Back",
+        "CHANGE": "Change",
+        "BLOCK": "Block",
+        "UNBLOCK": "Unblock",
+        "CONTINUE": "Continue",
+        "DISCARD": "Discard",
+        "RESTORE": "Restore",
+        "MUTE": "Mute",
+        "UNMUTE": "Unmute",
+        "MORE": "More",
+        "BUY": "Buy",
+        "COLLECT": "Collect",
+        "PAY_OUT": "Pay Out",
+        "VALIDATE": "Validate",
+        "CANCEL_APPOINTMENT": "Cancel Appointment",
+        "REVIEW": "Review",
+        "RETURN": "Return",
+        "CLOSE": "Close",
+        "REFUND": "Refund",
+        "LEAVE": "Leave",
+        "COPIED_TEXT": "Copied"
+      },
+      "STATUSES": {
+        "ONLINE": "Online",
+        "PROCESSING": "Processing",
+        "FOLLOWING": "Following",
+        "REQESTED": "Requested",
+        "EXTERNAL": "External",
+        "INACTIVE": "Inactive",
+        "ACTIVE": "Active",
+        "BLOCKED": "Blocked",
+        "FOR_FREE": "For Free",
+        "NO_VARIANTS": "No variants",
+        "OUT_OF_STOCK": "Out of Stock",
+        "GRIT_WALLET": "InstaWS Wallet",
+        "REFUNDING": "Refunding",
+        "PER_HOUR": "/Hour",
+        "REVIEWED": "Reviewed",
+        "SUCCESS": "Success",
+        "SHIPPED": "Ship"
+      },
+      "CATEGORIES": {
+        "ALL": "All",
+        "MEDIA": {
+          "ALL": "All",
+          "ANIMALS": "Animals",
+          "BEAUTY": "Beauty",
+          "DECOR": "Decor",
+          "DIY": "DIY",
+          "EDUCATION": "Education",
+          "FASHION": "Fashion",
+          "FOOD_AND_DRINK": "Food & Drink",
+          "GAMING": "Gaming",
+          "HUMOR": "Humor",
+          "MUSIC": "Music",
+          "SPORTS_AND_FITNESS": "Sports & Fitness",
+          "TECHNOLOGY": "Technology",
+          "TRAVEL": "Travel",
+          "TV_AND_MOVIES": "TV & Movies",
+          "VEHICLES": "Vehicles"
+        },
+        "REPORTS": {
+          "FRAUD": "Fraud",
+          "SPAM": "Spam",
+          "INSULT": "Insult",
+          "VIOLENCE": "Violence",
+          "PORNOGRAPHY": "Pornography",
+          "TERRORISM": "Terrorism",
+          "INFRINGEMENT": "Infringement"
+        },
+        "PRODUCT": {
+          "B2B": "B2B",
+          "BABY_AND_KIDS": "Baby & Kids",
+          "BOOKS": "Books",
+          "BICYCLES": "Bicycles",
+          "CARS": "Cars",
+          "ELECTRONICS": "Electronics",
+          "FASHION_MEN": "Fashion (Men)",
+          "FASHION_WOMEN": "Fashion (Women)",
+          "FOOD": "Food",
+          "GAMES": "Games",
+          "HEALTH_AND_BEAUTY": "Health & Beauty",
+          "HOME_AND_GARDEN": "Home & Garden",
+          "MOVIES": "Movies",
+          "MUSIC": "Music",
+          "PET_SUPPLIES": "Pet Supplies",
+          "REAL_ESTATE": "Real Estate",
+          "RENTALS": "Rentals",
+          "SPORTS_AND_OUTDOORS": "Sports & Outdoors",
+          "TOYS": "Toys"
+        },
+        "SERVICE": {
+          "BEAUTY_AND_WELLNESS": "Beauty & Wellness",
+          "CHORES": "Chores",
+          "CONSULTATION": "Consultation",
+          "CRAFT": "Craft",
+          "EDUCATION": "Education",
+          "EVENTS": "Events",
+          "LEISURE": "Leisure",
+          "SPORTS_AND_FITNESS": "Sports & Fitness"
+        },
+        "SERVICE_BREAKS": {
+          "NO": "No",
+          "15_MINUTES": "15 Minutes",
+          "30_MINUTES": "30 Minutes",
+          "60_MINUTES": "60 Minutes"
+        }
+      },
+      "LIST_FILTER": {
+        "TITLE": "Filter",
+        "RELEVANCE": "Relevance",
+        "DATE": "Date",
+        "VIEWS": "Views",
+        "LIKES": "Likes",
+        "TYPE": "Type",
+        "CATEGORY": "Category",
+        "STATUS": "Status",
+        "REVIEWS": "Reviews",
+        "PRICE_LOWEST": "Price (lowest)",
+        "PRICE_HIGHEST": "Price (highest)",
+        "ALL": "All",
+        "OPEN": "Open",
+        "CANCELLED": "Cancelled",
+        "REFUNDED": "Refunded",
+        "PAYIN": "Payin",
+        "PAYOUT": "Payout"
+      },
+      "DATE_TIME": {
+        "DURATIONS": {
+          "30_MINUTES": "30 Minutes",
+          "45_MINUTES": "45 Minutes",
+          "1_HOUR": "1 Hour",
+          "1_5_HOURS": "1,5 Hours",
+          "2_HOURS": "2 Hours",
+          "2_5_HOURS": "2,5 Hours",
+          "3_HOURS": "3 Hours",
+          "3_5_HOURS": "3,5 Hours",
+          "4_HOURS": "4 Hours",
+          "4_5_HOURS": "4,5 Hours",
+          "5_HOURS": "5 Hours",
+          "5_5_HOURS": "5,5 Hours",
+          "6_HOURS": "6 Hours",
+          "6_5_HOURS": "6,5 Hours",
+          "7_HOURS": "7 Hours",
+          "7_5_HOURS": "7,5 Hours",
+          "8_HOURS": "8 Hours"
+        },
+        "TIME_UNITS": {
+          "HOUR": "Hour",
+          "HOURS": "Hours",
+          "MINUTE": "minute",
+          "MINUTES": "minutes"
+        },
+        "WEEK_DAYS": {
+          "MONDAY": "Monday",
+          "TUESDAY": "Tuesday",
+          "WEDNESDAY": "Wednesday",
+          "THURSDAY": "Thursday",
+          "FRIDAY": "Friday",
+          "SATURDAY": "Saturday",
+          "SUNDAY": "Sunday"
+        },
+        "WEEK_DAYS_SHORT": {
+          "MONDAY": "Mon",
+          "TUESDAY": "Tue",
+          "WEDNESDAY": "Wed",
+          "THURSDAY": "Thu",
+          "FRIDAY": "Fri",
+          "SATURDAY": "Sat",
+          "SUNDAY": "Sun"
+        },
+        "TIME_AGO": {
+          "FEW_SECONDS_AGO": "a few seconds ago",
+          "MINUTE_AGO": "a minute ago",
+          "N_MINUTES_AGO": "{{n}} minutes ago",
+          "HOUR_AGO": "an hour ago",
+          "N_HOURS_AGO": "{{n}} hours ago",
+          "DAY_AGO": "a day ago",
+          "N_DAYS_AGO": "{{n}} days ago",
+          "MONTH_AGO": "a month ago",
+          "N_MONTHS_AGO": "{{n}} months ago",
+          "YEAR_AGO": "a year ago",
+          "N_YEARS_AGO": "{{n}} years ago"
+        },
+        "MONTHS_SHORT": {
+          "JAN": "Jan",
+          "FEB": "Feb",
+          "MAR": "Mar",
+          "APR": "Apr",
+          "MAY": "May",
+          "JUN": "Jun",
+          "JUL": "Jul",
+          "AUG": "Aug",
+          "SEP": "Sep",
+          "OCT": "Oct",
+          "NOV": "Nov",
+          "DEC": "Dec"
+        }
+      },
+      "ROLES": {
+        "ADMIN": "Admin",
+        "CREATOR": "Creator",
+        "VIEWER": "Viewer",
+        "TOOLTIP": {
+          "ADMIN": "Admin: CAN INVITE TEAM MEMBERS AND CREATE CONTENT",
+          "CREATOR": "Creator: CAN CREATE CONTENT",
+          "VIEWER": "Viewer: CAN OVERVIEW CONTENT"
+        }
+      },
+      "DRAFTS": {
+        "SAVE_DRAFT": "Save Draft",
+        "DELETE_DRAFT": "Delete Draft?",
+        "NO_TITLE": "No Title",
+        "MAPPING": {
+          "ZERO": "No Drafts",
+          "ONE": "1 Draft",
+          "MANY": "# Drafts"
+        }
+      },
+      "RETURN_REASONS": {
+        "DONT_LIKE": "I don’t like the service",
+        "POOR_SERVICE": "Poor service",
+        "PRICE_PERFORMANCE": "Price-performance",
+        "WRONG_PRODUCT": "Wrong product",
+        "PRODUCT_DAMAGED": "Product damaged",
+        "PRODUCT_DEFECTIVE": "Product defective",
+        "DELIVERY_INCOMPLETE": "Delivery incomplete",
+        "DELIVERED_TOO_LATE": "Delivered too late",
+        "OTHER": "Other"
+      },
+      "PRODUCT_STATUSES": {
+        "CANCELLED": "Cancelled: {{date}}",
+        "COLLECTED": "Collected: {{date}}",
+        "SHIPPED": "Shipped: {{date}}",
+        "NOT_REFUNDED": "Not refunded",
+        "REFUNDED_AUTO": "Refunded (Auto): {{date}}",
+        "RETURNED": "Returned: {{date}}",
+        "REFUNDED": "Refunded: {{date}}",
+        "APPOINTMENT": "Appointment: {{date}}",
+        "NOT_SHIPPED": "Not shipped"
+      }
+    },
+    "ERRORS": {
+      "MAX_HASHTAGS": "The maximum number of hashtags is {{num}}",
+      "MAX_MENTIONS": "The maximum number of mentions is {{num}}",
+      "MAX_ANNOTATIONS": "The maximum number of annotations is {{num}}",
+      "MAX_BUSINESSES": "Maximum number of {{num}} Businesses has been reached",
+      "MAX_FOLLOWERS": "You can follow a maximum of {{num}} pages",
+      "NO_CAMERA": "No camera available",
+      "MAX_MESSAGE_FILE_SIZE": "The maximum file size is {{num}} MB",
+      "MAX_VIDEO_SIZE": "The maximum video size is {{num}} MB",
+      "CANT_DELETE_CATEGORY": "Category cannot be deleted, because one or more products already use this category",
+      "CANT_DELETE_ADMIN": "At least 1 Admin needed"
+    },
+    "DIALOGS": {
+      "SAVE": {
+        "TITLE_DRAFT": "Save Draft?",
+        "TITLE_CHANGES": "Save Changes?"
+      },
+      "BLOCK": {
+        "TITLE_BLOCK": "Block?",
+        "TITLE_UNBLOCK": "Unblock?"
+      },
+      "COMMENT_EDIT": {
+        "FORM": {
+          "TEXT": {
+            "PLACEHOLDER": "Comment..."
+          }
+        },
+        "TITLE_COMMENT": "Edit Comment",
+        "TITLE_REPLY": "Edit Reply"
+      },
+      "COMMENT_LIST": {
+        "FORM": {
+          "TEXT": {
+            "PLACEHOLDER": "Comment..."
+          }
+        },
+        "MAPPING": {
+          "ZERO": "No Comments",
+          "ONE": "1 Comment",
+          "MANY": "# Comments"
+        }
+      },
+      "COMMENT_DISCARD": {
+        "TITLE": "Discard Comment?"
+      },
+      "COMMENT_DELETE": {
+        "TITLE": "Delete Comment?"
+      },
+      "REPLY_LIST": {
+        "TITLE": "Reply",
+        "FORM": {
+          "TEXT": {
+            "PLACEHOLDER": "Reply..."
+          }
+        }
+      },
+      "REPLY_DISCARD": {
+        "TITLE": "Discard Reply?"
+      },
+      "LIKE_LIST": {
+        "MAPPING": {
+          "ZERO": "No Likes",
+          "ONE": "1 Like",
+          "MANY": "# Likes"
+        }
+      },
+      "REPORT_LIST": {
+        "TITLE": "Report List",
+        "ACTIONS": {
+          "ACCEPT": "Apply Report",
+          "REJECT": "Reject Report"
+        }
+      },
+      "REPORT_ADD": {
+        "TITLE": "Report",
+        "FORM": {
+          "CATEGORY": {
+            "PLACEHOLDER": "Category"
+          },
+          "DESCRIPTION": {
+            "PLACEHOLDER": "Description (optional)"
+          }
+        }
+      },
+      "REVIEW_LIST": {
+        "TOOLTIP": {
+          "3_STARS": "3 Stars = Recommendation",
+          "2_STARS": "2 Stars = Partial Recommendation",
+          "1_STARS": "1 Star = No Recommendation"
+        },
+        "MAPPING": {
+          "ZERO": "No Reviews",
+          "ONE": "1 Review",
+          "MANY": "# Reviews"
+        }
+      },
+      "SHARE_LIST": {
+        "REPOST": "Repost",
+        "TITLE": "Send to",
+        "FORM": {
+          "MESSAGE": {
+            "PLACEHOLDER": "Message..."
+          }
+        }
+      },
+      "ADDRESS": {
+        "TITLE": "Delivery Address",
+        "FORM": {
+          "FULL_NAME": {
+            "PLACEHOLDER": "Full Name"
+          },
+          "STREET_AND_NUMBER": {
+            "PLACEHOLDER": "Street & Number"
+          },
+          "APPENDIX": {
+            "PLACEHOLDER": "Appendix (optional)"
+          },
+          "ZIP": {
+            "PLACEHOLDER": "Zip"
+          },
+          "CITY": {
+            "PLACEHOLDER": "City"
+          }
+        }
+      },
+      "ADDRESS_DELETE": {
+        "TITLE": "Delete Address?"
+      },
+      "SHARE": {
+        "TITLE": "Share",
+        "TEXT": "See the following link:"
+      },
+      "SHARE_MESSAGE": {
+        "TITLE": "Send to",
+        "INVALID": "Search and select a Page",
+        "FORM": {
+          "MESSAGE": {
+            "PLACEHOLDER": "Message..."
+          }
+        }
+      },
+      "UNAUTHORIZED": {
+        "TITLE": "\"Sign up or log in to do any action\"",
+        "ACTIONS": {
+          "LOG_IN": "Log In",
+          "SIGN_UP": "Sign Up"
+        }
+      },
+      "VIDEO_DELETE": {
+        "TITLE": "Delete Video?"
+      },
+      "TEXT_DELETE": {
+        "TITLE": "Delete Text?"
+      },
+      "PHOTO_DELETE": {
+        "TITLE": "Delete Photo?"
+      },
+      "ARTICLE_DELETE": {
+        "TITLE": "Delete Article?"
+      },
+      "PRODUCT_DELETE": {
+        "TITLE": "Delete Product?",
+        "SUBTITLE": "All product variants will be deleted"
+      },
+      "SERVICE_DELETE": {
+        "TITLE": "Delete Service?"
+      },
+      "CATEGORY_DELETE": {
+        "TITLE": "Delete Category?"
+      },
+      "CHAT_DELETE": {
+        "TITLE": "Delete Chat?"
+      },
+      "REPLY_DELETE": {
+        "TITLE": "Delete Reply?"
+      },
+      "ACCOUNT_DELETE": {
+        "TITLE": "Delete Account?"
+      },
+      "INVITE_FRIENDS": {
+        "TEXT": "I'm on InstaWS as {{pageName}}. Visit InstaWS to see my latest content",
+        "TITLE": "Invitation"
+      },
+      "DISCARD_MESSAGE": {
+        "TITLE": "Discard Message?"
+      },
+      "REVIEW_ADD": {
+        "TITLE": "Review",
+        "WOULD_YOU_RECOMMEND": {
+          "PRODUCT": "Would you recommend this product?",
+          "SERVICE": "Would you recommend this service?",
+          "SELLER": "Would you recommend this seller?"
+        },
+        "BAR_RATING_TITLES": {
+          "NO": "No",
+          "PARTLY": "Partly",
+          "YES": "Yes"
+        },
+        "FORM": {
+          "REVIEW": {
+            "PLACEHOLDER": "Review"
+          }
+        },
+        "MAPPING": {
+          "ZERO": "No Photos",
+          "ONE": "1 Photo",
+          "MANY": "# Photos"
+        }
+      },
+      "REVIEW_LIKES": {
+        "MAPPING": {
+          "ZERO": "No Likes",
+          "ONE": "1 Like",
+          "MANY": "# Likes"
+        }
+      },
+      "REVIEW_REPLY": {
+        "TITLE": "Reply",
+        "FORM": {
+          "TEXT": {
+            "PLACEHOLDER": "Reply..."
+          }
+        }
+      },
+      "REVIEW_REPLY_EDIT": {
+        "TITLE": "Edit Reply",
+        "FORM": {
+          "TEXT": {
+            "PLACEHOLDER": "Reply..."
+          }
+        }
+      },
+      "REVIEW_SLIDER": {
+        "TITLE": "Photos"
+      },
+      "BANK": {
+        "TITLE": "Payment",
+        "PAYMENT_METHOD": "Payment method",
+        "BANK_FORM": {
+          "HOLDER": {
+            "PLACEHOLDER": "Holder"
+          },
+          "IBAN": {
+            "PLACEHOLDER": "IBAN"
+          }
+        },
+        "CARD_FORM": {
+          "HOLDER": {
+            "PLACEHOLDER": "Holder"
+          },
+          "CARD_NUMBER": {
+            "PLACEHOLDER": "Card number"
+          },
+          "MONTH": {
+            "PLACEHOLDER": "MM"
+          },
+          "YEAR": {
+            "PLACEHOLDER": "YY"
+          },
+          "CVC": {
+            "PLACEHOLDER": "CVC"
+          }
+        }
+      },
+      "KYC_VALIDATION": {
+        "TITLE": "KYC Validation",
+        "ACCOUNT_TYPE": "Account type",
+        "PERSONAL": {
+          "TITLE": "Personal",
+          "FORM": {
+            "PHOTO": {
+              "PLACEHOLDER": "Photo"
+            },
+            "EMAIL": {
+              "PLACEHOLDER": "Email"
+            },
+            "FIRST_NAME": {
+              "PLACEHOLDER": "First name"
+            },
+            "LAST_NAME": {
+              "PLACEHOLDER": "Last name"
+            },
+            "COUNTRY_OF_RESIDENCE": {
+              "PLACEHOLDER": "Contry of Residence"
+            },
+            "DAY": {
+              "PLACEHOLDER": "Day"
+            },
+            "MONTH": {
+              "PLACEHOLDER": "Month"
+            },
+            "YEAR": {
+              "PLACEHOLDER": "Year"
+            },
+            "NATIONALITY": {
+              "PLACEHOLDER": "Nationality"
+            }
+          }
+        },
+        "BUSINESS": {
+          "TITLE": "Business",
+          "FORM": {
+            "PHOTO": {
+              "PLACEHOLDER": "Photo"
+            },
+            "HEADQUARTERS_ADDRESS": {
+              "PLACEHOLDER": "Headquarters Address"
+            },
+            "LEGAL_REPRESENTATIVE_EMAIL": {
+              "PLACEHOLDER": "Legal Representative Email"
+            },
+            "LEGAL_REPRESENTATIVE_ADDRESS": {
+              "PLACEHOLDER": "Legal Representative Address"
+            },
+            "COMPANY_NUMBER": {
+              "PLACEHOLDER": "Company Number"
+            }
+          }
+        }
+      },
+      "PAYOUT": {
+        "TITLE": "Pay out",
+        "FORM": {
+          "AMOUNT": {
+            "PLACEHOLDER": "Amount"
+          },
+          "PAYMENT": {
+            "PLACEHOLDER": "Payment"
+          }
+        }
+      },
+      "CANCEL_BOOKING": {
+        "TITLE": "Cancel Booking",
+        "FORM": {
+          "REASON": {
+            "PLACEHOLDER": "Reason"
+          },
+          "DESCRIPTION": {
+            "PLACEHOLDER": "Description (optional)"
+          }
+        }
+      },
+      "CANCEL_ORDER": {
+        "TITLE": "Cancel Order",
+        "FORM": {
+          "REASON": {
+            "PLACEHOLDER": "Reason"
+          },
+          "DESCRIPTION": {
+            "PLACEHOLDER": "Description (optional)"
+          }
+        }
+      },
+      "SHIP_ORDER": {
+        "TITLE": "Ship Order"
+      },
+      "REFUND_ORDER": {
+        "TITLE": "Refund Order"
+      },
+      "RETURN_ORDER": {
+        "TITLE": "Return Order",
+        "FORM": {
+          "REASON": {
+            "PLACEHOLDER": "Reason"
+          },
+          "DESCRIPTION": {
+            "PLACEHOLDER": "Description (optional)"
+          },
+          "SHIPPING_COSTS": {
+            "PLACEHOLDER": "Shipping Costs"
+          }
+        }
+      },
+      "PAY_IN": {
+        "TITLE": "PayIn",
+        "TOOLTIP": "You dont have enough money to refund. Please choose one of posibble payments method for pay in to your InstaWS Wallet",
+        "FORM": {
+          "PAYMENT": {
+            "PLACEHOLDER": "Payment"
+          },
+          "AMOUNT": {
+            "PLACEHOLDER": "Amount"
+          }
+        }
+      }
+    },
+    "COMPONENTS": {
+      "ADDRESS_INPUT": {
+        "DEFAULT_PLACEHOLDER": "Address",
+        "TOOLTIP": "The full address will only be displayed to the buyer."
+      },
+      "SERVICE": {
+        "INACTIVE": "Service is inactive"
+      },
+      "THUMBNAIL": {
+        "PROCESSING": "Processing"
+      },
+      "TRUNCATABLE_TEXT": {
+        "MORE": "... more",
+        "LESS": " less"
+      },
+      "BANK_INPUT": {
+        "TOOLTIP": "The main payment method on InstaWS is Direct Debit. We provide no PayPal or Credit Cards, because of high transcation costs."
+      },
+      "PURCHASES_BOOKING_ITEM": {
+        "BOOKING_ID": "Booking-ID:",
+        "BOOKED": "Booked:",
+        "PAID": "Paid:",
+        "APPOINTMENT": "Appointment:",
+        "SOLD": "Sold (Appointment):",
+        "CANCELLED": "Cancelled",
+        "SELLER": "(Seller):",
+        "BUYER": "(Buyer):",
+        "NOT_REFUNDED": "4. Not Refunded",
+        "REFUNDED": "4. Refunded:",
+        "CANCEL_TOOLTIP": "Services can be canceled up to 12 hours before they take place"
+      },
+      "PURCHASES_ITEM": {
+        "ADDRESS": "Delivery:",
+        "BILL": "Bill:",
+        "ORDER_ID": "Order-ID:",
+        "ORDERED": "Ordered:",
+        "PAID": "Paid:",
+        "ORDER_LIST": {
+          "PRODUCT_VARIANT": "Product variant:",
+          "QUANTITY": "Quantity:"
+        },
+        "TOTAL": "Total (incl. tax):",
+        "INCL_SHIPPING_1": "(incl. Shipping: ",
+        "INCL_SHIPPING_2": "and Tax)"
+      },
+      "SALES_BOOKING_ITEM": {
+        "TITLE": "Review",
+        "CANCEL_TOOLTIP": "A service can only be canceled up to 12 hours before starting",
+        "PRODUCTS": "Products",
+        "GRIT_FEES": "InstaWS fees:",
+        "SHIPPING": "Shipping: ",
+        "TOTAL_PRICE": "Total price: "
+      },
+      "SALES_ITEM": {
+        "REFUND_RETURN_COSTS": "Refund return costs"
+      },
+      "FILE_PLACEHOLDER_COMPONENT": {
+        "DELETED_FILES_MESSAGE": "Files are deleted after 10 days."
+      }
+    },
+    "INFO_MESSAGES": {
+      "PERSONAL_PAGE_DELETED": "Your page has been deleted. You can restore your page within 30 days after deletion by log in.",
+      "LINK_COPIED": "Link copied",
+      "PASSWORD_CHANGED": "Password changed",
+      "RESET_PASSWORD_LETTER_SENT": "A message has been sent to your email to reset your password",
+      "NO_PRODUCTS_ON_TIMELINE_AND_FEED": "Products will not be shown on the Feed and Timeline",
+      "WALLET_VERIFICATION_SUCCESSFUL": "Your InstaWS Wallet verification was successful!",
+      "ALL_SELECTED_PRODUCTS_CANCELLED": "All products have already been cancelled",
+      "SELECT_PRODUCTS_FOR_CANCEL": "Select products which should be canceled",
+      "ALL_SELECTED_PRODUCTS_RETURNED": "All selected products have already been returned",
+      "SELECT_PRODUCTS_FOR_RETURN": "Select products which have been returned",
+      "ALL_SELECTED_PRODUCTS_SHIPPED": "All selected products have already been shipped",
+      "SELECT_PRODUCTS_FOR_SHIPPED": "Select products which have been shipped",
+      "ALL_PRODUCTS_REFUNDED": "All selected products have already been refunded",
+      "SELECT_PRODUCTS_FOR_REFUND": "Select products which have been refunded",
+      "PRODUCTS_SHIPPED": "Shipped products cannot be canceled",
+      "PRODUCTS_CANNOT_BE_CANCELED": "Products cannot be canceled",
+      "PRODUCTS_CANNOT_BE_SHIPPED": "Products cannot be shipped",
+      "PRODUCTS_CANNOT_BE_REFUNDED": "Products cannot be refunded",
+      "PRODUCTS_CANNOT_BE_RETURNED": "Products cannot be returned",
+      "INFO_ABOUT_FEES": "InstaWS takes a fee of 3% (at least €0,50) of the total price. The total price includes shipping costs for product sales."
+    },
+    "PAGES": {
+      "ERROR": {
+        "TITLE": "Error",
+        "TEXT": "Something went wrong. Try it again."
+      },
+      "FORGOT_PASSWORD": {
+        "TITLE": "Reset Password",
+        "FORM": {
+          "PASSWORD": {
+            "PLACEHOLDER": "New Password",
+            "ERRORS": {
+              "REQUIRED": "Please enter your new password",
+              "INVALID": "Password not valid!"
+            }
+          },
+          "CONFIRM": {
+            "PLACEHOLDER": "Confirm New Password",
+            "ERRORS": {
+              "NOT_SAME": "Passwords do not match"
+            }
+          }
+        },
+        "ACTIONS": {
+          "CHANGE_PASSWORD": "Change Password"
+        }
+      },
+      "REPORTS": {
+        "REPORT_LIST": {
+          "COLUMN_NAME": {
+            "ID": "Id",
+            "TYPE": "Type",
+            "CREATOR": "Creator",
+            "REPORTER": "Reporter",
+            "REPORTED": "Reported",
+            "CATEGORY": "Category",
+            "DESCRIPTION": "Description",
+            "CREATED": "Created",
+            "STATUS": "Status",
+            "OPTIONS": "Options"
+          },
+          "MAPPING": {
+            "ZERO": "No Reports",
+            "ONE": "1 Report",
+            "MANY": "# Reports"
+          }
+        },
+        "REPORT_OPTIONS": {
+          "MESSAGE_CREATOR": "Message Creator",
+          "MESSAGE_REPORTER": "Message Reporter",
+          "CHECKING": "Checking",
+          "CHECKED": "Checked",
+          "REMOVE": "Remove"
+        }
+      },
+      "HOMEPAGE": {
+        "LOG_IN": "Log In",
+        "SIGN_UP": "Sign Up",
+        "TITLE": "GRIT",
+        "SUBTITLE": "Social Commerce Platform",
+        "PRIVACY": "Privacy",
+        "LEGAL_NOTICE": "Legal Notice",
+        "YEAR": "© 2019 InstaWS",
+        "SLIDES": {
+          "1": {
+            "HEADER": "InstaWS Page",
+            "TEXT_ONE": "Create Photos, Videos, Texts,",
+            "TEXT_TWO": "Products and Services"
+          },
+          "2": {
+            "HEADER": "Social",
+            "TEXT_ONE": "Share your content and",
+            "TEXT_TWO": "follow other InstaWS Pages"
+          },
+          "3": {
+            "HEADER": "Commerce",
+            "TEXT_ONE": "Sell Products and Services",
+            "TEXT_TWO": "with our order and payment system"
+          }
+        }
+      },
+      "LOGIN": {
+        "TITLE": "Log in",
+        "LOGIN_FORM": {
+          "EMAIL": {
+            "PLACEHOLDER": "Email"
+          },
+          "PASSWORD": {
+            "PLACEHOLDER": "Password"
+          },
+          "ERROR": "Incorrect Email or Password"
+        },
+        "MAIL_FORM": {
+          "EMAIL": {
+            "PLACEHOLDER": "Email"
+          },
+          "ERROR": "Incorrect login"
+        },
+        "ACTIONS": {
+          "FORGOT": "Forgot Password?",
+          "LOG_IN": "Log In",
+          "RESET_PASSWORD": "Reset password"
+        }
+      },
+      "NOT_FOUND": {
+        "TITLE": "Oops... Page Not Found",
+        "TEXT": "Sorry! The page you are looking for does not exist."
+      },
+      "REGISTER": {
+        "TITLE_PERSON": "Sign Up",
+        "TITLE_BUSINESS": "Create Business",
+        "USER_FORM": {
+          "USER_TYPE": {
+            "PERSON": "Person",
+            "BUSINESS_OR_ORGANIZATION": "Business/Organization"
+          },
+          "CREATE_PERSON_LINE_1": "You need to create a Personal Page",
+          "CREATE_PERSON_LINE_2": "to manage your Business/Organization Page",
+          "ALREADY_CREATED": "Personal Page already created?",
+          "NAME": {
+            "PLACEHOLDER": "Name"
+          },
+          "EMAIL": {
+            "PLACEHOLDER": "Email",
+            "ERRORS": {
+              "SAME_EMAIL": "Email is already in use",
+              "INVALID": "Invalid email format"
+            }
+          },
+          "PASSWORD": {
+            "PLACEHOLDER": "Password",
+            "ERRORS": {
+              "TOO_SHORT": "At least 6 characters needed"
+            }
+          },
+          "BIRTHDAY": {
+            "TITLE": "Birthday",
+            "TOOLTIP": "\"Through your Birthday, we can offer you the best possible GRIT experience. Your Birthday will not be displayed publicly!\"",
+            "DAY": {
+              "PLACEHOLDER": "Day"
+            },
+            "MONTH": {
+              "PLACEHOLDER": "Month"
+            },
+            "YEAR": {
+              "PLACEHOLDER": "Year"
+            }
+          },
+          "GENDER": {
+            "FEMALE": "Female",
+            "MALE": "Male"
+          }
+        },
+        "BUSINESS_FORM": {
+          "TITLE": "Business/Organization",
+          "NAME": {
+            "PLACEHOLDER": "Name"
+          },
+          "CATEGORY": {
+            "PLACEHOLDER": "Category"
+          },
+          "STREET_AND_NUMBER": {
+            "PLACEHOLDER": "Street & Number"
+          },
+          "ZIP": {
+            "PLACEHOLDER": "Zip"
+          },
+          "CITY": {
+            "PLACEHOLDER": "City"
+          },
+          "PHONE": {
+            "PLACEHOLDER": "Phone"
+          }
+        },
+        "ACTIONS": {
+          "SIGN_UP": "Sign Up",
+          "CREATE_BUSINESS": "Create Business"
+        },
+        "POLICY": {
+          "FIRST_PART": "By signing up, you agree to our",
+          "TERMS": "Terms",
+          "AND": "and",
+          "DATA_POLICY": "Data Policy"
+        }
+      },
+      "BLOCKED": {
+        "MAPPING": {
+          "ZERO": "None Blocked",
+          "MANY": "# Blocked"
+        }
+      },
+      "BOOKMARKS": {
+        "MAPPING": {
+          "ZERO": "Nothing Saved",
+          "ONE": "1 Saved",
+          "MANY": "# Saved"
+        }
+      },
+      "FOLLOWERS": {
+        "MAPPING": {
+          "ZERO": "No Followers",
+          "ONE": "1 Follower",
+          "MANY": "# Followers"
+        }
+      },
+      "FOLLOWINGS": {
+        "MAPPING": {
+          "ZERO": "No Following",
+          "ONE": "1 Following",
+          "MANY": "# Following"
+        }
+      },
+      "SETTINGS": {
+        "TITLE": "Settings",
+        "USER_FORM": {
+          "NAME": {
+            "PLACEHOLDER": "Name"
+          },
+          "PAGE": {
+            "PLACEHOLDER": "Page",
+            "ERRORS": {
+              "MINLENGTH": "At least 3 characters required",
+              "INVALID_CHAR": "Only letters, numbers, dots and hyphens allowed",
+              "NAME_EXISTS": "Page is already in use"
+            }
+          },
+          "DESCRIPTION": {
+            "PLACEHOLDER": "Description"
+          },
+          "RESIDENCE": {
+            "PLACEHOLDER": "Residence"
+          },
+          "DELIVERY_ADDRESS": {
+            "PLACEHOLDER": "Delivery Address"
+          },
+          "BANK_ACCOUNT": {
+            "PLACEHOLDER": "Bank Account",
+            "TOOLTIP": "The main payment method on InstaWS is Direct Debit. We provide no PayPal or Credit Cards, because of high transcation costs."
+          },
+          "EMAIL": {
+            "PLACEHOLDER": "Email",
+            "ERRORS": {
+              "EMAIL_EXISTS": "Email is already in use",
+              "INVALID": "Invalid email format"
+            }
+          },
+          "BIRTHDAY": {
+            "TITLE": "Birthday",
+            "DAY": {
+              "PLACEHOLDER": "Day"
+            },
+            "MONTH": {
+              "PLACEHOLDER": "Month"
+            },
+            "YEAR": {
+              "PLACEHOLDER": "Year"
+            },
+            "TOOLTIP": "Through your Birthday, we can offer you the best possible GRIT experience. Your Birthday will not be displayed publicly!"
+          },
+          "GENDER": {
+            "PLACEHOLDER": "Gender",
+            "FEMALE": "Female",
+            "MALE": "Male"
+          },
+          "LANGUAGE": {
+            "PLACEHOLDER": "Language",
+            "DEUTSCH": "Deutsch",
+            "ENGLISH": "English"
+          },
+          "PRIVACY": {
+            "PLACEHOLDER": "Privacy",
+            "PUBLIC": "Public",
+            "PRIVATE": "Private",
+            "TOOLTIP": "When your page is private, only people you approve can see your page content. Your existing followers won't be affected. Products & services are always public."
+          },
+          "CHANGE_PASSWORD": "Change Password"
+        },
+        "BUSINESS_FORM": {
+          "NAME": {
+            "PLACEHOLDER": "Name"
+          },
+          "PAGE": {
+            "PLACEHOLDER": "Page",
+            "ERRORS": {
+              "MINLENGTH": "At least 3 characters required",
+              "INVALID_CHAR": "Only letters, numbers, dots and hyphens allowed",
+              "NAME_EXISTS": "Page is already in use"
+            }
+          },
+          "DESCRIPTION": {
+            "PLACEHOLDER": "Description"
+          },
+          "CATEGORY": {
+            "PLACEHOLDER": "Category"
+          },
+          "PHONE": {
+            "PLACEHOLDER": "Phone",
+            "ERRORS": {
+              "MINLENGTH": "At least 3 characters required"
+            }
+          },
+          "LEGAL_NOTICE": {
+            "PLACEHOLDER": "Legal Notice"
+          },
+          "DELIVERY_ADDRESS": {
+            "PLACEHOLDER": "Delivery Address"
+          },
+          "BANK_ACCOUNT": {
+            "PLACEHOLDER": "Bank Account",
+            "TOOLTIP": "The main payment method on InstaWS is Direct Debit. We provide no PayPal or Credit Cards, because of high transcation costs."
+          },
+          "LANGUAGE": {
+            "PLACEHOLDER": "Language",
+            "DEUTSCH": "Deutsch",
+            "ENGLISH": "English"
+          },
+          "ADDRESS": {
+            "TITLE": "Address",
+            "STREET_AND_NUMBER": {
+              "PLACEHOLDER": "Street & Number"
+            },
+            "ZIP": {
+              "PLACEHOLDER": "Zip"
+            },
+            "CITY": {
+              "PLACEHOLDER": "City"
+            }
+          },
+          "OPENING_HOURS": {
+            "TITLE": "Opening Hours",
+            "BAD_RANGE": "The duration does not fit this range",
+            "CLOSED": "Closed"
+          }
+        },
+        "CHANGE_PASSWORD_FORM": {
+          "TITLE": "Change Password",
+          "OLD_PASSWORD": {
+            "PLACEHOLDER": "Old Password",
+            "ERRORS": {
+              "REQUIRED": "Please enter your old password"
+            }
+          },
+          "NEW_PASSWORD": {
+            "PLACEHOLDER": "New Password",
+            "ERRORS": {
+              "REQUIRED": "Please enter your new password"
+            }
+          },
+          "CONFIRM_NEW_PASSWORD": {
+            "PLACEHOLDER": "Confirm New Password",
+            "ERRORS": {
+              "NOT_SAME": "Passwords do not match"
+            }
+          },
+          "FORGOT_PASSWORD": "Forgot Password?",
+          "CHANGE_PASSWORD": "Change Password"
+        },
+        "BANK_ACCOUNT_FORM": {
+          "TITLE": "Bank Account",
+          "HOLDER": {
+            "PLACEHOLDER": "Holder"
+          },
+          "IBAN": {
+            "PLACEHOLDER": "IBAN"
+          }
+        },
+        "DELETE_PAGE": "Delete Page",
+        "DELETE_PAGE_DIALOG": {
+          "TITLE": "Delete Page?",
+          "TEXT": "Your page and all created content will be deleted. You can restore your page within 30 days after deletion",
+          "BY_LOG_IN": "by log in.",
+          "IN_THE_MENU": "in the menu."
+        },
+        "CONFIRM_DELETE_FORM": {
+          "TITLE": "Confirm with password",
+          "PASSWORD": {
+            "PLACEHOLDER": "Password",
+            "ERRORS": {
+              "WRONG_PASSWORD": "Wrong password"
+            }
+          }
+        }
+      },
+      "TEAM_ADD": {
+        "TITLE": "Add team members",
+        "SEARCH": "Search team member",
+        "MAKE_ADMIN": "Make Admin",
+        "MAKE_CREATOR": "Make Creator",
+        "MAKE_VIEWER": "Make Viewer"
+      },
+      "TEAM_LIST": {
+        "MAPPING": {
+          "ZERO": "No Team Members",
+          "ONE": "1 Team Member",
+          "MANY": "# Team Members"
+        },
+        "ROLE": "Role",
+        "CHANGE_ROLE_DIALOG": {
+          "TITLE": "Change Role"
+        },
+        "DELETE_TEAM_MEMBER": {
+          "TITLE": "Remove Team Member?"
+        },
+        "LEAVE_TEAM": {
+          "TITLE": "Leave Business?"
+        }
+      },
+      "ARTICLE_ADD": {
+        "COVER": "Cover",
+        "FORM": {
+          "TITLE": {
+            "PLACEHOLDER": "Title"
+          },
+          "CATEGORY": {
+            "PLACEHOLDER": "Category"
+          },
+          "LOCATION": {
+            "PLACEHOLDER": "Location"
+          },
+          "TEXT": {
+            "PLACEHOLDER": "Text"
+          }
+        }
+      },
+      "ARTICLE_LIST": {
+        "MAPPING": {
+          "ZERO": "No Articles",
+          "ONE": "1 Article",
+          "MANY": "# Articles"
+        }
+      },
+      "HOME_ADD": {
+        "TEXT": "Text",
+        "PHOTO": "Photo",
+        "VIDEO": "Video",
+        "ARTICLE": "Article",
+        "PRODUCT": "Product",
+        "SERVICE": "Service"
+      },
+      "HOME_LIST": {
+        "CONFIRM_EMAIL_TEXT": "Please confirm your email.<br> A confirmation message was sent to<br>",
+        "RESEND_CONFIRMATION": "Resend confirmation",
+        "UPDATE_EMAIL": "Update email",
+        "SETTINGS": "Settings",
+        "YOU_ARE_BLOCKED": "You are blocked",
+        "YOU_CANNOT_FOLLOW": "You cannot follow or see any content from",
+        "OPENING_HOURS": "Opening Hours",
+        "CLOSED": "Closed",
+        "LEGAL_NOTICE": "Legal Notice",
+        "TIMELINE": "Timeline",
+        "FOLLOWERS_MAPPING": {
+          "ZERO": "0 Followers",
+          "ONE": "1 Follower",
+          "MANY": "# Followers"
+        },
+        "FOLLOWING_STATUS": {
+          "PENDING": "Requested",
+          "SUCCESS": "Following",
+          "APPROVED": "Following",
+          "REJECTED": "Follow"
+        }
+      },
+      "PHOTO_ADD": {
+        "PHOTO": "Photo",
+        "SEARCH": "Tag user",
+        "FORM": {
+          "TITLE": {
+            "PLACEHOLDER": "Title"
+          },
+          "CATEGORY": {
+            "PLACEHOLDER": "Category"
+          },
+          "DESCRIPTION": {
+            "PLACEHOLDER": "Description"
+          },
+          "LOCATION": {
+            "PLACEHOLDER": "Location"
+          },
+          "TEXT": {
+            "PLACEHOLDER": "Text"
+          }
+        }
+      },
+      "PHOTO_LIST": {
+        "MAPPING": {
+          "ZERO": "No Photos",
+          "ONE": "1 Photo",
+          "MANY": "# Photos"
+        }
+      },
+      "PRODUCT_ADD": {
+        "PHOTOS": "Photos",
+        "PHOTO": "Photo",
+        "VARIANTS_TITLE": "Product Variants",
+        "FOR_FREE": "Product Variants",
+        "FORM": {
+          "PRODUCT_TYPE": {
+            "PLACEHOLDER": "Product Type",
+            "SINGLE_PRODUCT": "Single Product",
+            "PRODUCT_VARIANTS": "Product Variants"
+          },
+          "TITLE": {
+            "PLACEHOLDER": "Title"
+          },
+          "CONDITION": {
+            "PLACEHOLDER": "Condition",
+            "NEW": "New",
+            "USED": "Used"
+          },
+          "QUANTITY": {
+            "PLACEHOLDER": "Quantity"
+          },
+          "PRICE": {
+            "PLACEHOLDER": "Price"
+          },
+          "CATEGORY": {
+            "PLACEHOLDER": "Category"
+          },
+          "SHOP_CATEGORY": {
+            "PLACEHOLDER": "Shop Category",
+            "TOOLTIP": "Individual categories that are displayed to the customer in your shop.",
+            "NAME": {
+              "PLACEHOLDER": "Name"
+            }
+          },
+          "DESCRIPTION": {
+            "PLACEHOLDER": "Description"
+          },
+          "OPTIONS": {
+            "PLACEHOLDER": "Options",
+            "SIZE": "Size",
+            "COLOR": "Color",
+            "FLAVOR": "Flavor",
+            "MATERIAL": "Material",
+            "SIZE_COLOR": "Size-Color",
+            "SIZE_FLAVOR": "Size-Flavor",
+            "SIZE_MATERIAL": "Size-Material",
+            "SIZE_COLOR_MATERIAL": "Size-Color-Material",
+            "TOOLTIP": "Select a product option. Enter values by separated commas or the enter key in the following fields"
+          },
+          "SIZES": {
+            "PLACEHOLDER": "Sizes"
+          },
+          "COLORS": {
+            "PLACEHOLDER": "Colors"
+          },
+          "FLAVORS": {
+            "PLACEHOLDER": "Flavors"
+          },
+          "MATERIALS": {
+            "PLACEHOLDER": "Materials"
+          },
+          "VARIANTS_TABLE": {
+            "PHOTO": "Photo",
+            "SIZE": "Size",
+            "COLOR": "Color",
+            "FLAVOR": "Flavor",
+            "MATERIAL": "Material",
+            "PRICE": "Price (€)",
+            "QUANTITY": "Qty"
+          },
+          "VARIANT_PHOTOS_DIALOG": {
+            "TITLE": "Select Photos",
+            "ERRORS": {
+              "NOT_ENABLED": "At least one product variant needs to be enabled",
+              "EMPTY": "A product variant needs to have at least 1 photo, a quantity of 1 and no empty price",
+              "NO_PHOTO": "Click on a photo to select at least 1 photo"
+            }
+          },
+          "DELIVERY_TITLE": "Delivery",
+          "DELIVERY_OPTIONS": {
+            "PLACEHOLDER": "Delivery Options",
+            "ONLY_SHIPPING": "Only Shipping",
+            "ONLY_COLLECTION": "Only Collection",
+            "BOTH": "Both"
+          },
+          "DELIVERY_TIME": {
+            "PLACEHOLDER": "Delivery Time (working days)",
+            "TOOLTIP": "Delivery Time = Handling Time + Shipping Time. Holidays are not included. For example, the shipping time of DHL or UPS is usually 1-2 working days."
+          },
+          "SHIPPING_COSTS": {
+            "PLACEHOLDER": "Shipping Costs",
+            "FREE_SHIPPING": "Free Shipping"
+          },
+          "PAYER_AT_RETURN": {
+            "PLACEHOLDER": "Payer at Return",
+            "BUYER": "Buyer",
+            "SELLER": "Seller"
+          }
+        }
+      },
+      "PRODUCT_DETAIL": {
+        "DELIVERY": {
+          "ONLY_COLLECTION": "Only Collection",
+          "FREE_SHIPPING": "Free Shipping",
+          "SHIPPING": "Shipping",
+          "DELIVERY_DAY": "Delivery: ca. {{deliveryTime}} day",
+          "DELIVERY_DAYS": "Delivery: ca. {{deliveryTime}} days",
+          "DELIVERY_OR_COLLECT_DAY": "Delivery: ca. {{deliveryTime}} day or collect",
+          "DELIVERY_OR_COLLECT_DAYS": "Delivery: ca. {{deliveryTime}} days or collect"
+        },
+        "ADD_TO_CART": "Add to Cart",
+        "PRODUCT_IS_INACTIVE": "Product is inactive"
+      },
+      "PRODUCT_LIST": {
+        "SEARCH": "Search",
+        "CATEGORIES": "Categories",
+        "NO_RESULTS": "No results",
+        "MAPPING": {
+          "ZERO": "No Products",
+          "ONE": "1 Product",
+          "MANY": "# Products"
+        },
+        "COLUMN_NAME": {
+          "OPTIONS": "Options",
+          "STATUS": "Status",
+          "PHOTO": "Photo",
+          "TITLE": "Title",
+          "VARIANT": "Variant",
+          "CONDITION": "Condition",
+          "PRICE": "Price",
+          "QUANTITY": "Quantity",
+          "CATEGORY": "Category",
+          "SHOP_CATEGORY": "Shop Category",
+          "DELIVERY_TIME": "Delivery Time",
+          "DELIVERY_OPTIONS": "Delivery Options",
+          "SHIPPING_COSTS": "Shipping Costs",
+          "SALES": "Sales",
+          "REVENUE": "Revenue",
+          "REVIEWS": "Reviews",
+          "RATING": "Rating",
+          "CREATED": "Created"
+        },
+        "DELIVERY_OPTIONS": {
+          "ONLY_SHIPPING": "only Shipping",
+          "ONLY_COLLECTION": "only Collection",
+          "BOTH": "Shipping & Collection"
+        }
+      },
+      "SERVICE_ADD": {
+        "PHOTOS": "Photos",
+        "PHOTO": "Photo",
+        "FORM": {
+          "TITLE": {
+            "PLACEHOLDER": "Title"
+          },
+          "PRICE": {
+            "PLACEHOLDER": "Price"
+          },
+          "CATEGORY": {
+            "PLACEHOLDER": "Category"
+          },
+          "DESCRIPTION": {
+            "PLACEHOLDER": "Description"
+          },
+          "PLACE_OF_PERFORMANCE": {
+            "PLACEHOLDER": "Place of Performance",
+            "SERVICE_PROVIDER": "Service Provider",
+            "CUSTOMER": "Customer"
+          },
+          "LOCATION_TITLE": "Location",
+          "ADDRESS": {
+            "PLACEHOLDER": "Address"
+          },
+          "QUANTITY": {
+            "PLACEHOLDER": "Quantity",
+            "TOOLTIP": "Quantity of available tickets or vacancies for each particular service"
+          },
+          "SCHEDULE": {
+            "TITLE": "Schedule",
+            "FREQUENCY": {
+              "PLACEHOLDER": "Frequency",
+              "REGULAR": "Regular",
+              "IRREGULAR": "Irregular"
+            },
+            "DURATION": {
+              "PLACEHOLDER": "Duration",
+              "TOOLTIP": "Duration of the service or minimum bookable unit you provide."
+            },
+            "BREAK": {
+              "PLACEHOLDER": "Break",
+              "TOOLTIP": "Break between each appointment. E.g. for appointment preparation or journey."
+            },
+            "ERRORS": {
+              "NO_APPOINTMENT": "At least one appointment required"
+            },
+            "REGULAR": {
+              "ERRORS": {
+                "BAD_RANGE": "The duration does not fit this range"
+              },
+              "NO_APPOINTMENTS": "No Appointments"
+            },
+            "IRREGULAR": {
+              "FROM": {
+                "PLACEHOLDER": "From"
+              },
+              "TO": {
+                "PLACEHOLDER": "To"
+              },
+              "ERRORS": {
+                "BAD_RANGE": "You can not choose 'To' value less then 'From'"
+              },
+              "APPOINTMENT": "Appointment"
+            },
+            "APPOINTMENT": "Appointment"
+          }
+        }
+      },
+      "SERVICE_BOOK": {
+        "TITLE": "Booking",
+        "TOTAL_PRICE": "Total Price",
+        "INCL_TAX": "(incl. Tax)",
+        "FORM": {
+          "ITEMS_LEFT": "({{quantity}} left)",
+          "DATE": {
+            "PLACEHOLDER": "Date"
+          },
+          "TIME": {
+            "PLACEHOLDER": "Time"
+          },
+          "QUANTITY": {
+            "PLACEHOLDER": "Quantity"
+          },
+          "APPOINTMENTS": {
+            "PLACEHOLDER": "Appointments"
+          },
+          "PAYMENT": {
+            "PLACEHOLDER": "Payment"
+          }
+        },
+        "ADD_BANK_FORM": {
+          "TITLE": "Bank Account",
+          "HOLDER": {
+            "PLACEHOLDER": "Holder"
+          },
+          "IBAN": {
+            "PLACEHOLDER": "IBAN"
+          }
+        }
+      },
+      "SERVICE_LIST": {
+        "SEARCH": "Search",
+        "NO_RESULTS": "No results",
+        "MAPPING": {
+          "ZERO": "No Services",
+          "ONE": "1 Service",
+          "MANY": "# Services"
+        }
+      },
+      "TABS": {
+        "HOME": "HOME",
+        "PHOTOS": "PHOTOS",
+        "VIDEOS": "VIDEOS",
+        "BLOG": "BLOG",
+        "SHOP": "SHOP",
+        "SERVICES": "SERVICES"
+      },
+      "TEXT_ADD": {
+        "FORM": {
+          "TEXT": {
+            "PLACEHOLDER": "Text..."
+          }
+        },
+        "NO_TEXT": "No Text"
+      },
+      "TEXT_LIST": {
+        "MAPPING": {
+          "ZERO": "No Texts",
+          "ONE": "1 Text",
+          "MANY": "# Texts"
+        }
+      },
+      "VIDEO_ADD": {
+        "VIDEO": "Video",
+        "COVER": "Cover",
+        "FORM": {
+          "TITLE": {
+            "PLACEHOLDER": "Title"
+          },
+          "CATEGORY": {
+            "PLACEHOLDER": "Category"
+          },
+          "DESCRIPTION": {
+            "PLACEHOLDER": "Description"
+          },
+          "LOCATION": {
+            "PLACEHOLDER": "Location"
+          },
+          "TEXT": {
+            "PLACEHOLDER": "Text"
+          }
+        }
+      },
+      "VIDEO_LIST": {
+        "MAPPING": {
+          "ZERO": "No Videos",
+          "ONE": "1 Video",
+          "MANY": "# Videos"
+        }
+      },
+      "DISCOVER": {
+        "PHOTOS": "Photos",
+        "VIDEOS": "Videos",
+        "ARTICLES": "Articles",
+        "PRODUCTS": "Products",
+        "SERVICES": "Services",
+        "ADDRESS_SEARCH": {
+          "LOCATION": "Location",
+          "N_KILOMETERS": "{{radius}} km"
+        },
+        "EMPTY_LIST": {
+          "PHOTOS": "No Photos",
+          "SERVICES": "No Services",
+          "VIDEOS": "No Videos",
+          "ARTICLES": "No Articles",
+          "PRODUCTS": "No Products"
+        }
+      },
+      "FEED": {
+        "INVITE_FRIENDS": "Invite Friends",
+        "DISCOVER": "Discover"
+      },
+      "MENU": {
+        "MY_PAGE": "My Page",
+        "TEAM": "Team",
+        "INVITE_FRIENDS": "Invite Friends",
+        "ORDERS_OR_BOOKINGS": "Purchases/Sales",
+        "FOLLOWING": "Following",
+        "SAVED": "Saved",
+        "BLOCKED": "Blocked",
+        "SETTINGS": "Settings",
+        "CREATE_BUSINESS": "Create Business",
+        "LOG_OUT": "Log Out",
+        "GRIT": "InstaWS",
+        "GRIT_WALLET": "InstaWS Wallet",
+        "ABOUT_GRIT": "About InstaWS",
+        "JOBS": "Jobs",
+        "HELP": "Help",
+        "CUSTOMER_SERVICE": "Customer Service",
+        "CONDITION_OF_USE": "Condition of Use",
+        "PRIVACY_POLICY": "Privacy Policy",
+        "LEGAL_NOTICE": "Legal Notice",
+        "REPORTS": "Reports"
+      },
+      "CHAT_ADD": {
+        "TITLE": "New Message",
+        "SEARCH": "Search"
+      },
+      "CHAT_DETAIL": {
+        "NO_MESSAGES": "No messages",
+        "UPLOADING_FILE": "Uploading file {{progress}}%",
+        "PROCESSING_FILE": "Processing file",
+        "PHOTO_OR_VIDEO": "Photo/Video",
+        "DOCUMENT": "Document",
+        "CAMERA": "Camera",
+        "SHARED": {
+          "USER": "Shared Page",
+          "TEXT": "Shared Text",
+          "PHOTO": "Shared Photo",
+          "VIDEO": "Shared Video",
+          "ARTICLE": "Shared Article",
+          "PRODUCT": "Shared Product",
+          "SERVICE": "Shared Service"
+        }
+      },
+      "CHAT_LIST": {
+        "NO_CHATS": "No chats",
+        "ATTACHMENT": "Attachment"
+      },
+      "NOTIFICATION_LIST": {
+        "FOLLOW_REQUESTS": "Follow Requests",
+        "LOAD_MORE_REQUESTS": "Load more requests",
+        "NOTIFICATION_SETTINGS": {
+          "TITLE": "Notifications",
+          "NEW_FOLLOWERS": "New Followers",
+          "LIKES": "Likes",
+          "COMMENTS": "Comments",
+          "TAGS": "Tags",
+          "EMPTY_LIST": "No Notifications"
+        },
+        "NOTIFICATION_TEXT": {
+  
+          "LIKED_TEXT": "liked your text.",
+          "LIKED_PHOTO": "liked your photo.",
+          "LIKED_VIDEO": "liked your video.",
+          "LIKED_ARTICLE": "liked your article.",
+          "LIKED_PRODUCT": "liked your product.",
+          "LIKED_SERVICE": "liked your service.",
+          "LIKED_REVIEW": "liked your review.",
+          "LIKED_COMMENT": "liked your comment.",
+  
+          "COMMENTED_TEXT": "commented your text.",
+          "COMMENTED_PHOTO": "commented your photo.",
+          "COMMENTED_VIDEO": "commented your video.",
+          "COMMENTED_ARTICLE": "commented your article.",
+          "COMMENTED_PRODUCT": "commented your product.",
+          "COMMENTED_SERVICE": "commented your service.",
+          "COMMENTED_REVIEW": "commented your review.",
+          "COMMENTED_COMMENT": "replied your comment.",
+  
+          "MENTIONED_TEXT": "mentioned you in a text.",
+          "MENTIONED_PHOTO": "mentioned you in a photo.",
+          "MENTIONED_VIDEO": "mentioned you in a video.",
+          "MENTIONED_ARTICLE": "mentioned you in a article.",
+          "MENTIONED_PRODUCT": "mentioned you in a product.",
+          "MENTIONED_SERVICE": "mentioned you in a service.",
+          "MENTIONED_REVIEW": "mentioned you in a review.",
+          "MENTIONED_COMMENT": "mentioned you in a comment.",
+  
+          "REPLIED_REVIEW": "replied your review.",
+          "REPLIED_COMMENT": "replied your comment.",
+  
+          "FOLLOWS": "follows you.",
+  
+          "TAGGED": "tagged you on photo.",
+  
+          "ORDERED": "ordered your product.",
+  
+          "SHIPPED": "shipped your product.",
+  
+          "BOOKED": "booked your service.",
+  
+          "CANCELLED_ORDER": "cancelled your order.",
+          "CANCELLED_BOOKING": "cancelled your booking."
+        }
+      },
+      "SEARCH": {
+        "TABS": {
+          "ALL": "ALL",
+          "PAGES": "PAGES",
+          "PHOTOS": "PHOTOS",
+          "VIDEOS": "VIDEOS",
+          "ARTICLES": "ARTICLES",
+          "PRODUCTS": "PRODUCTS",
+          "SERVICES": "SERVICES"
+        },
+        "NO_RESULTS": "No results",
+        "PHOTOS": "Photos"
+      },
+      "CART_CHECKOUT": {
+        "TITLE": "Checkout",
+        "FORM": {
+          "DELIVERY_ADDRESS": {
+            "PLACEHOLDER": "Delivery Address"
+          },
+          "PAYMENT": {
+            "PLACEHOLDER": "Payment"
+          },
+          "TOTAL_PRICE": {
+            "TITLE": "Total Price",
+            "INCL_SHIPPING": "(incl. Shipping and Tax)"
+          }
+        },
+        "SHIPPING": "Shipping: ",
+        "COLLECT": "Collect"
+      },
+      "CART_LIST": {
+        "FORM": {
+          "DELIVERY_ADDRESS": {
+            "PLACEHOLDER": "Delivery Address"
+          },
+          "DIFFERENT_BILLING_ADDRESS": {
+            "PLACEHOLDER": "Different billing address"
+          },
+          "BILLING_ADDRESS": {
+            "PLACEHOLDER": "Billing Address"
+          },
+          "PAYMENT": {
+            "PLACEHOLDER": "Payment"
+          },
+          "PRODUCT_TABLE": {
+            "PRODUCTS": "Products:",
+            "SHIPPING": "Shipping:",
+            "TOTAL": "Total:",
+            "INCL_TAX": "(incl. Tax)"
+          }
+        },
+        "CART_PRODUCTS": {
+          "PRODUCT_VARIANT": "Product variant: ",
+          "SHIPPING": "Shipping: "
+        },
+        "CART_IS_EMPTY": "Cart is empty"
+      },
+      "ORDER_BOOKINGS_LIST": {
+        "PURCHASES": "Purchases",
+        "SALES": "Sales"
+      },
+      "PURCHASES": {
+        "VERIFICATION_PENDING": "Verification pending",
+        "VERIFICATION_WAS_NOT_SUCCESFUL": "Verification was not succesful",
+        "PURCHASES": "Purchases",
+        "SALES": "Sales",
+        "MAPPING": {
+          "ZERO": "No Purchases",
+          "ONE": "1 Purchase",
+          "MANY": "# Purchases"
+        }
+      },
+      "SALES": {
+        "MAPPING": {
+          "ZERO": "No Sales",
+          "ONE": "1 Sale",
+          "MANY": "# Sales"
+        }
+      },
+      "WALLET": {
+        "MAPPING": {
+          "ZERO": "No Transactions",
+          "ONE": "1 Transaction",
+          "MANY": "# Transactions"
+        },
+        "TABLE": {
+          "AMOUNT": "Amount",
+          "PRODUCT_TYPE": "Product Type",
+          "DATE": "Date"
+        },
+        "TRANSACTION_TYPE": {
+          "PRODUCT": "Purchase",
+          "SALE": "Sale",
+          "REFUND": "Refund"
+        }
+      }
+    }
+  }
+  

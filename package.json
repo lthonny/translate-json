@@ -20,6 +20,8 @@
   "dependencies": {
     "@google-cloud/translate": "^6.3.1",
     "dotenv": "^16.0.1",
-    "translate": "^1.4.1"
+    "google-translate-api": "^2.0.3",
+    "translate": "^1.4.1",
+    "translate-google": "^1.5.0"
   }
 }
