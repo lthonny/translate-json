@@ -2,28 +2,12 @@ import { Google } from "./translators/google/google";
 import { Translaters } from "./enum/translaters";
 import { Yandex } from "./translators/yandex/yandex";
 
-const test = {
-    "GENERAL": {
-        "ACTIONS": {
-          "OK": "Ok",
-          "YES": "Yes",
-          "NO": "No",
-          "CANCEL": "Cancel",
-          "CONFIRM": "Confirm",
-          "DELETE": "Delete",
-          "REMOVE": "Remove",
-          "EDIT": "Edit",
-          "UNFOLLOW": "Unfollow",
-          "FOLLOW": "Follow",
-          "REPORT": "Report",
-          "SAVE": "Save",
-          "LINK": "Link",
-          "SHARE": "Share",
-        }    
-    }
-};
+export interface IParamsInit {
+    target: string;
+    translators: string;
+}
 
-class TranslateJSON {
+export class TranslateFormJson {
     public init(json, target, translators) {    
         if(translators === Translaters.google) {
             this.translateGoogle(json, target);
@@ -45,7 +29,3 @@ class TranslateJSON {
         yandex.init();
     }
 }
-
-const app = new TranslateJSON();
-app.init(test, 'ru', 'google');
-// export = TranslateJSON;
