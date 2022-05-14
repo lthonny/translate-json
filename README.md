@@ -1,10 +1,10 @@
-Translate a JSON Object
+## Translate a JSON Object
 
 Fast, unopinionated, minimalist web interpreter json for [node](http://nodejs.org).
 
-[![NPM Version][npm-version-image]][npm-url]
+<!-- [![NPM Version][npm-version-image]][npm-url]
 [![NPM Install Size][npm-install-size-image]][npm-install-size-url]
-[![NPM Downloads][npm-downloads-image]][npm-downloads-url]
+[![NPM Downloads][npm-downloads-image]][npm-downloads-url] -->
 
 ```js
 const translateFormJson = require("translate-form-json");
@@ -39,7 +39,7 @@ $ node
 [![Windows Build][appveyor-image]][appveyor-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
-The Express.js project welcomes all constructive contributions. Contributions take many forms,
+The TranslateFormJson project welcomes all constructive contributions. Contributions take many forms,
 from code for bug fixes and enhancements, to additions and fixes to documentation, additional
 tests, triaging incoming pull requests and issues, and more!
 
