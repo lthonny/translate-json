@@ -19,7 +19,7 @@ $ npm install translate-form-json
 
 ## Examples
 
-To view the examples, clone the TranslateJson repo and install the dependencies:
+To view the examples, clone the TranslateFormJson repo and install the dependencies:
 
 ```console
 $ git clone https://github.com/lthonny/translate-json.git --depth 1
