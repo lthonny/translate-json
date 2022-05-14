@@ -14,7 +14,7 @@
     "email" : "thonny02@mail.ru",
     "url" : "https://vk.com/thonny_v"
   },
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/lthonny/trello_clone_frontend"

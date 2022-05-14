@@ -1,6 +1,6 @@
-## Translate a JSON Object
+Translate a JSON Object
 
-  Fast, unopinionated, minimalist web interpreter json for [node](http://nodejs.org).
+Fast, unopinionated, minimalist web interpreter json for [node](http://nodejs.org).
 
 [![NPM Version][npm-version-image]][npm-url]
 [![NPM Install Size][npm-install-size-image]][npm-install-size-url]
@@ -51,3 +51,7 @@ To run the test suite, first install the dependencies, then run `npm test`:
 $ npm install
 $ npm test
 ```
+
+## License
+
+[MIT](LICENSE)
