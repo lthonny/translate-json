@@ -1,16 +1,28 @@
 {
-  "name": "translate-json",
+  "name": "translate-form-json",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start:prod": "",
-    "start:dev": "nodemon ./src/index.ts",
+    "start:dev": "nodemon ./test/test.ts",
     "build": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "name" : "Vasily Shitukhin",
+    "email" : "thonny02@mail.ru",
+    "url" : "https://vk.com/thonny_v"
+  },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lthonny/trello_clone_frontend"
+  },
+  "bugs": {
+    "url" : "https://github.com/lthonny/trello_clone_frontend",
+    "email" : "thonny02@mail.ru"
+  },
   "devDependencies": {
     "eslint": "^8.15.0",
     "nodemon": "^2.0.16",
