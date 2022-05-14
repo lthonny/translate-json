@@ -14,7 +14,7 @@ const translate = translateFormJson.init(test, "en", "google");
 ## Installation
 
 ```console
-$ npm install translate-form-json
+$ npm install translate-form-json --save
 ```
 
 ## Examples
@@ -34,7 +34,8 @@ $ node
 ```
 
 ## Contributing
-<!-- 
+
+<!--
 [![Linux Build][github-actions-ci-image]][github-actions-ci-url]
 [![Windows Build][appveyor-image]][appveyor-url]
 [![Test Coverage][coveralls-image]][coveralls-url] -->
