@@ -1,6 +1,6 @@
 {
   "name": "translate-form-json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
-    "name" : "Vasily Shitukhin",
-    "email" : "thonny02@mail.ru",
-    "url" : "https://vk.com/thonny_v"
+    "name": "Vasily Shitukhin",
+    "email": "thonny02@mail.ru",
+    "url": "https://vk.com/thonny_v"
   },
   "license": "MIT",
   "repository": {
@@ -20,9 +20,17 @@
     "url": "https://github.com/lthonny/trello_clone_frontend"
   },
   "bugs": {
-    "url" : "https://github.com/lthonny/trello_clone_frontend",
-    "email" : "thonny02@mail.ru"
+    "url": "https://github.com/lthonny/trello_clone_frontend",
+    "email": "thonny02@mail.ru"
   },
+  "keywords": [
+    "translate",
+    "google",
+    "yandex",
+    "translator",
+    "language",
+    "object"
+  ],
   "devDependencies": {
     "eslint": "^8.15.0",
     "nodemon": "^2.0.16",
@@ -30,10 +38,7 @@
     "typescript": "^4.6.4"
   },
   "dependencies": {
-    "@google-cloud/translate": "^6.3.1",
     "dotenv": "^16.0.1",
-    "google-translate-api": "^2.0.3",
-    "translate": "^1.4.1",
     "translate-google": "^1.5.0"
   }
 }
